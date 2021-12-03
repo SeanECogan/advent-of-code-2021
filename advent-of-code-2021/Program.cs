@@ -2,6 +2,7 @@
 using advent_of_code_2021.Common;
 using Day01 = advent_of_code_2021.Solvers.Day01;
 using Day02 = advent_of_code_2021.Solvers.Day02;
+using Day03 = advent_of_code_2021.Solvers.Day03;
 
 var stopwatch = new Stopwatch();
 
@@ -56,6 +57,34 @@ var day02PuzzleBAnswer = Day02.PuzzleB.Solver.Solve(day02InputLines);
 stopwatch.Stop();
 
 Console.WriteLine($"Day 02 - Puzzle B - Final position was: {day02PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+Console.WriteLine();
+
+#endregion
+
+#region Day03
+
+var day03InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day03\data.txt");
+
+stopwatch.Start();
+
+var day03PuzzleAAnswer = Day03.PuzzleA.Solver.Solve(day03InputLines);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 03 - Puzzle A - Power consumption was: {day03PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+stopwatch.Start();
+
+var day03PuzzleBAnswer = Day03.PuzzleB.Solver.Solve(day03InputLines);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 03 - Puzzle B - Life support rating was: {day03PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
 stopwatch.Reset();
 
