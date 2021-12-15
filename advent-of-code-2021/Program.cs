@@ -6,150 +6,151 @@ using Day03 = advent_of_code_2021.Solvers.Day03;
 using Day04 = advent_of_code_2021.Solvers.Day04;
 using Day05 = advent_of_code_2021.Solvers.Day05;
 using Day06 = advent_of_code_2021.Solvers.Day06;
+using Day07 = advent_of_code_2021.Solvers.Day07;
 
 var stopwatch = new Stopwatch();
 
 Console.WriteLine();
 
-// #region Day01
+#region Day01
 
-// var day01InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day01\data.txt");
+var day01InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day01\data.txt");
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day01PuzzleAAnswer = Day01.PuzzleA.Solver.Solve(day01InputLines);
+var day01PuzzleAAnswer = Day01.PuzzleA.Solver.Solve(day01InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 01 - Puzzle A - Number of depth increases was: {day01PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 01 - Puzzle A - Number of depth increases was: {day01PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day01PuzzleBAnswer = Day01.PuzzleB.Solver.Solve(day01InputLines);
+var day01PuzzleBAnswer = Day01.PuzzleB.Solver.Solve(day01InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 01 - Puzzle B - Number of depth increases was: {day01PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 01 - Puzzle B - Number of depth increases was: {day01PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// #endregion
+#endregion
 
-// #region Day02
+#region Day02
 
-// var day02InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day02\data.txt");
+var day02InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day02\data.txt");
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day02PuzzleAAnswer = Day02.PuzzleA.Solver.Solve(day02InputLines);
+var day02PuzzleAAnswer = Day02.PuzzleA.Solver.Solve(day02InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 02 - Puzzle A - Final position was: {day02PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 02 - Puzzle A - Final position was: {day02PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day02PuzzleBAnswer = Day02.PuzzleB.Solver.Solve(day02InputLines);
+var day02PuzzleBAnswer = Day02.PuzzleB.Solver.Solve(day02InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 02 - Puzzle B - Final position was: {day02PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 02 - Puzzle B - Final position was: {day02PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// #endregion
+#endregion
 
-// #region Day03
+#region Day03
 
-// var day03InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day03\data.txt");
+var day03InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day03\data.txt");
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day03PuzzleAAnswer = Day03.PuzzleA.Solver.Solve(day03InputLines);
+var day03PuzzleAAnswer = Day03.PuzzleA.Solver.Solve(day03InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 03 - Puzzle A - Power consumption was: {day03PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 03 - Puzzle A - Power consumption was: {day03PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day03PuzzleBAnswer = Day03.PuzzleB.Solver.Solve(day03InputLines);
+var day03PuzzleBAnswer = Day03.PuzzleB.Solver.Solve(day03InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 03 - Puzzle B - Life support rating was: {day03PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 03 - Puzzle B - Life support rating was: {day03PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// #endregion
+#endregion
 
-// #region Day04
+#region Day04
 
-// var day04InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day04\data.txt");
+var day04InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day04\data.txt");
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day04PuzzleAAnswer = Day04.PuzzleA.Solver.Solve(day04InputLines);
+var day04PuzzleAAnswer = Day04.PuzzleA.Solver.Solve(day04InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 04 - Puzzle A - Final score was: {day04PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 04 - Puzzle A - Final score was: {day04PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day04PuzzleBAnswer = Day04.PuzzleB.Solver.Solve(day04InputLines);
+var day04PuzzleBAnswer = Day04.PuzzleB.Solver.Solve(day04InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 04 - Puzzle B - Final score of last board was: {day04PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 04 - Puzzle B - Final score of last board was: {day04PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// #endregion
+#endregion
 
-// #region Day05
+#region Day05
 
-// var day05InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day05\data.txt");
+var day05InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day05\data.txt");
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day05PuzzleAAnswer = Day05.PuzzleA.Solver.Solve(day05InputLines);
+var day05PuzzleAAnswer = Day05.PuzzleA.Solver.Solve(day05InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 05 - Puzzle A - Number of points where at least two lines overlap was: {day05PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 05 - Puzzle A - Number of points where at least two lines overlap was: {day05PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// stopwatch.Start();
+stopwatch.Start();
 
-// var day05PuzzleBAnswer = Day05.PuzzleB.Solver.Solve(day05InputLines);
+var day05PuzzleBAnswer = Day05.PuzzleB.Solver.Solve(day05InputLines);
 
-// stopwatch.Stop();
+stopwatch.Stop();
 
-// Console.WriteLine($"Day 05 - Puzzle B - Number of points where at least two lines overlap was: {day05PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 05 - Puzzle B - Number of points where at least two lines overlap was: {day05PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
-// stopwatch.Reset();
+stopwatch.Reset();
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// #endregion
+#endregion
 
 #region Day06
 
@@ -163,7 +164,7 @@ var day06PuzzleAAnswer = Day06.PuzzleA.Solver.Solve(day06InputLine, day06PuzzleA
 
 stopwatch.Stop();
 
-Console.WriteLine($"Day 06 - Puzzle A - Number of lanternfish after {day06PuzzleANumberOfDays} was: {day06PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 06 - Puzzle A - Number of lanternfish after {day06PuzzleANumberOfDays} days was: {day06PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
 stopwatch.Reset();
 
@@ -173,7 +174,35 @@ var day06PuzzleBAnswer = Day06.PuzzleA.Solver.Solve(day06InputLine, day06PuzzleB
 
 stopwatch.Stop();
 
-Console.WriteLine($"Day 06 - Puzzle B - Number of lanternfish after {day06PuzzleBNumberOfDays} was: {day06PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+Console.WriteLine($"Day 06 - Puzzle B - Number of lanternfish after {day06PuzzleBNumberOfDays} days was: {day06PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+Console.WriteLine();
+
+#endregion
+
+#region Day07
+
+var day07InputLine = FileParser.ReadLineFromFile(@"advent-of-code-2021\Solvers\Day07\data.txt");
+
+stopwatch.Start();
+
+var day07PuzzleAAnswer = Day07.PuzzleA.Solver.Solve(day07InputLine);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 07 - Puzzle A - Lowest fuel cost was: {day07PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+stopwatch.Start();
+
+var day07PuzzleBAnswer = Day07.PuzzleB.Solver.Solve(day07InputLine);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 07 - Puzzle B - Lowest fuel cost was: {day07PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
 stopwatch.Reset();
 
