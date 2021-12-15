@@ -4,6 +4,7 @@ using Day01 = advent_of_code_2021.Solvers.Day01;
 using Day02 = advent_of_code_2021.Solvers.Day02;
 using Day03 = advent_of_code_2021.Solvers.Day03;
 using Day04 = advent_of_code_2021.Solvers.Day04;
+using Day05 = advent_of_code_2021.Solvers.Day05;
 
 var stopwatch = new Stopwatch();
 
@@ -114,6 +115,34 @@ var day04PuzzleBAnswer = Day04.PuzzleB.Solver.Solve(day04InputLines);
 stopwatch.Stop();
 
 Console.WriteLine($"Day 04 - Puzzle B - Final score of last board was: {day04PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+Console.WriteLine();
+
+#endregion
+
+#region Day05
+
+var day05InputLines = FileParser.ReadLinesFromFile(@"advent-of-code-2021\Solvers\Day05\data.txt");
+
+stopwatch.Start();
+
+var day05PuzzleAAnswer = Day05.PuzzleA.Solver.Solve(day05InputLines);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 05 - Puzzle A - Number of points where at least two lines overlap was: {day05PuzzleAAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
+
+stopwatch.Reset();
+
+stopwatch.Start();
+
+var day05PuzzleBAnswer = Day05.PuzzleB.Solver.Solve(day05InputLines);
+
+stopwatch.Stop();
+
+Console.WriteLine($"Day 05 - Puzzle B - Number of points where at least two lines overlap was: {day05PuzzleBAnswer} ({Math.Round((double)stopwatch.ElapsedTicks / (double)TimeSpan.TicksPerMillisecond, 3)} ms)");
 
 stopwatch.Reset();
 
