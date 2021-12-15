@@ -13,5 +13,17 @@ namespace advent_of_code_2021.Common
                 throw new FileNotFoundException();
             }
         }
+
+        public static string ReadLineFromFile(string filePath)
+        {
+            if (File.Exists(filePath))
+            {
+                return File.ReadAllLines(filePath).First();
+            }
+            else
+            {
+                throw new FileNotFoundException();
+            }
+        }
     }
 }
